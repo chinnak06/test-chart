@@ -7,5 +7,6 @@ ReplicaCount: 3
 
 #Image details
 Image:
-  URI: 293281137840.dkr.ecr.us-east-1.amazonaws.com
+  URI: 
+  RepoName:
   Tag: latest
