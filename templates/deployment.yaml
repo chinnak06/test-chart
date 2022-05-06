@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: {{ .Values.AppName }}
-          image: {{ .Values.Image.URI }}/{{ .Values.AppName }}:{{ .Values.Image.Tag }}
+          image: {{ .Values.Image.URI }}/{{ .Values.Image.RepoName }}:{{ .Values.Image.Tag }}
           imagePullPolicy: Always
           ports:
             - containerPort: {{ .Values.ContainerPort }}
